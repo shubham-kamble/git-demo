@@ -1,0 +1,59 @@
+*{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+body{
+    background-color: #FF6F61;
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow:5px 5px 10px black;
+}
+.middle-card{
+    background-color: #6B5B95;
+    margin: auto;
+    width: 90%;
+    padding: 2%;
+    border-radius: 25px;
+    color: blanchedalmond;
+    line-height: 25px;
+}
+label{
+    margin-left: 20px;
+    font-size: 130%;
+}
+input,select,textarea{
+    padding: 20px;
+    border-radius: 25px;
+    border: ivory;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 105%;
+}
+.for-gender input{
+    text-align: left;
+    width: auto;
+    margin-left: 15%;
+}
+.for-gender label{
+    text-align: left;
+    width: auto;
+}
+.checkbox input{
+    margin-top: 2.5%;
+    width: auto;
+}
+.checkbox:hover{
+    cursor: pointer;
+}
+.submit{
+    color: white;
+    background-color: #4caf50;
+}
+.submit:hover{
+    cursor: pointer;
+}
+@media only screen and (min-width: 768px){
+    .middle-card{width: 50%;}
+}

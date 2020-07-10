@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="2. Webpage Including Form.css">
+        <title>Webpage Including Form</title>
+    </head>
+    <body>
+        <h1>MY FORM</h1>
+        <form action="#submitted">
+        <div class="middle-card">
+            <label>Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            <label>Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+            <label>Phone Number:</label>
+            <input type="text" name="phone" id="phone" placeholder="Enter your phone number" required>
+            <label>Age:</label>
+            <input type="number" name="age" id="age" placeholder="Enter your age" required>
+            <div class="for-gender">
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <label>Role:</label>
+            <select name="role" id="role" required>
+                <option value="0">Select Your Role:</option>
+                <option value="1">Student</option>
+                <option value="2">Trainer</option>
+                <option value="3">Professor</option>
+                <option value="4">Programmer</option>
+                <option value="5">Analyst</option>
+                <option value="6">Manager</option>
+            </select>
+            <label>Languages Known:</label><br>
+            <label class="checkbox"><input type="checkbox" checked="checked">English</label>
+            <label class="checkbox"><input type="checkbox">Hindi</label>
+            <label class="checkbox"><input type="checkbox">Marathi</label><br><br>
+            <label>About:</label>
+            <textarea name="about" rows="10" placeholder="Tell us about your self..."></textarea>
+            <input type="submit" class="submit" value="Submit">
+        </div>
+        </form>
+    </body>
+</html>
