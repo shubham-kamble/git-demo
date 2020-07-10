@@ -1,0 +1,37 @@
+body{
+    background-image: url("thunder-background.jpg");
+    background-size: cover;
+}
+h1,h3{
+    color: #b3c6ff;
+    text-align: center;
+}
+.info-box{
+    width: 100%;
+    display: flex;
+}
+.info-left{
+    width: 65%;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    line-height: 1.6;
+    
+}
+.info-right{
+    width: 30%;
+}
+img{
+    width: 100%;
+    border-radius: 45%;
+}
+.blur-box{
+    z-index: -1;
+    background-color: black;
+    opacity: 0.7;
+    height: 100%;
+}
+.quote{
+    text-align: center;
+    font-size: 130%;
+}
