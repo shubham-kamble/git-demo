@@ -1,0 +1,6 @@
+.text{
+	border: solid;
+    border-width: thin;
+    border-color: red;
+    outline:3px dotted #88ff4d;
+}
