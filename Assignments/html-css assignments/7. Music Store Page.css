@@ -83,10 +83,10 @@ h4{
     width: 74%;
 }
 footer{
+    text-align: center;
     background-color: #383e56;
     color: white;
     padding:2%;
     text-transform: uppercase;
     font-size: 1.2em;
-    text-align: center;
 }
