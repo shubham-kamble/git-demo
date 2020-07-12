@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    background-color: #607D8B;
+}
+.navbar{
+    background-color: #383e56;
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding:2%;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+.home{
+    text-transform: uppercase;
+    font-size: 12em;
+    text-align: center;
+    text-shadow: 2px 2px 14px black;
+    padding-top: 16%;
+    padding-bottom: 16%;
+}
+.music-details{
+    padding:2%;
+    background-color: #FF5722;
+    color: wheat;
+    padding-bottom: 4%;
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: .8em;
+}
+p{
+    margin: 5% 10% 0 10%;
+    background-color: wheat;
+    color: black;
+    padding: 6em;
+}
+.button{
+    margin-top: 5%;
+    background-color: #F44336;
+    color: #f9f9f9;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2em;
+    text-transform: uppercase;
+    width: 20%;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:4%;
+}
+.itm1,.itm2,.itm3{
+    background-color: white;
+    width: 20%;
+    text-transform: uppercase;
+}
+h4{
+    padding: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.shop p{
+    padding: 20%;
+    text-align: center;
+    letter-spacing: .3em;
+}
+.shop a{
+    width: 74%;
+}
+footer{
+    background-color: #383e56;
+    color: white;
+    padding:2%;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    text-align: center;
+}
