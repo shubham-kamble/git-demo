@@ -84,3 +84,9 @@ body{
 .footer p{
     text-align: justify;
 }
+
+@media (max-width:786px){
+    .about,.footer{
+        flex-direction: column;
+    }
+}
