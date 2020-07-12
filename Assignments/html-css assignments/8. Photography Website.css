@@ -1,0 +1,30 @@
+body,html{
+    background-image: url('Images/dmc5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+header{
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 2% 0 2% 0;
+    letter-spacing: .6em;
+}
+.images{
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1.5%;
+    justify-content: center;
+}
+img{
+    width: 300px;
+    padding: 0 1.5% 1.5% 1.5%;
+    transition: transform .5s;
+}
+img:hover{
+    transform: scale(1.2);
+}
