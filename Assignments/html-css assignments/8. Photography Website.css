@@ -2,6 +2,7 @@ body,html{
     background-image: url('Images/dmc5.jpg');
     background-size: cover;
     background-position: center;
+    scroll-behavior: smooth;
 }
 header{
     font-size: 2em;
