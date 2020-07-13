@@ -2,6 +2,9 @@ body{
     margin: 0;
     background-color: #607D8B;
 }
+html{
+    scroll-behavior: smooth;
+}
 .navbar{
     background-color: #383e56;
     display: flex;
