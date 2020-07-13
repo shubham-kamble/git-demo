@@ -80,7 +80,7 @@ h4{
 .shop p{
     padding: 20%;
     text-align: center;
-    letter-spacing: .3em;
+    letter-spacing: 2px;
 }
 .shop a{
     width: 74%;
@@ -92,4 +92,14 @@ footer{
     padding:2%;
     text-transform: uppercase;
     font-size: 1.2em;
+}
+@media (max-width:786px){
+    .shop{
+        flex-direction: column;
+    }
+    .itm1,.itm2,.itm3{
+        margin: auto;
+        width: 50%;
+        text-transform: uppercase;
+    }
 }
