@@ -48,3 +48,5 @@ if(flip()=='H')
     document.getElementById("message").innerHTML = "Have a GOOD day!";
 else
     document.getElementById("message").innerHTML = "Have a BAD day!";
+
+var fourNums = [Math.random(),Math.random(),Math.random(),Math.random()];
