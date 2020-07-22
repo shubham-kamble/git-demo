@@ -33,3 +33,4 @@ function map2(array,fun){
         return map2(array,fun);
     }
 }
+
